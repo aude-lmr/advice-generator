@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <main className=" flex justify-center items-center bg-dark-blue w-screen h-screen">
-      <div className="box-border relative p-10 flex flex-col items-center justify-center w-1/3 h-max border border-solid border-grayish-blue bg-grayish-blue rounded-lg">
+      <div className=" box-border relative p-10 flex flex-col items-center justify-center w-1/3 sm:max-md:w-11/12 h-max border border-solid border-grayish-blue bg-grayish-blue rounded-lg">
         <h1 className="text-sm font-bold text-neon-green">
           ADVICE #{advice.id}
         </h1>
