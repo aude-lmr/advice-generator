@@ -15,17 +15,17 @@ export default function Home() {
   }, []);
 
   return (
-    <main className=" flex justify-center items-center bg-dark-blue w-screen h-screen">
-      <div className=" box-border relative p-10 flex flex-col items-center justify-center w-1/3 sm:max-md:w-11/12 h-max border border-solid border-grayish-blue bg-grayish-blue rounded-lg">
-        <h1 className="text-sm font-bold text-neon-green">
+    <main className="flex justify-center items-center bg-dark-blue min-h-screen p-4">
+      <div className="box-border relative p-6 flex flex-col items-center justify-center w-full max-w-xs sm:max-w-md border border-solid border-grayish-blue bg-grayish-blue rounded-lg">
+        <h1 className="text-xs sm:text-sm font-bold text-neon-green text-center">
           ADVICE #{advice.id}
         </h1>
-        <p className="text-[28px] font-bold text-light-cyan my-4 text-center">
+        <p className="text-base sm:text-lg md:text-[28px] font-bold text-light-cyan my-4 text-center">
           {advice.advice}
         </p>
 
         <button
-          className="flex justify-center items-center absolute -bottom-7 border-solid border-neon-green bg-neon-green rounded-full size-14 "
+          className="flex justify-center items-center absolute -bottom-6 sm:-bottom-7 border-solid border-neon-green bg-neon-green rounded-full w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16"
           onClick={fetchAdvice}
         >
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
