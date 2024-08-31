@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import DecorativeLines from "../app/components/decorativeligns";
+// import DecorativeLines from "../app/components/decorativeligns";
 
 export default function Home() {
   const [advice, setAdvice] = useState({});
